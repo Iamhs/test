@@ -49,7 +49,7 @@
     
     // Undocumented access to UIWebView's JSContext
     self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    
+    //hello
     // 打印异常
     self.context.exceptionHandler =
     ^(JSContext *context, JSValue *exceptionValue)
