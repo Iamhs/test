@@ -57,7 +57,7 @@
         context.exception = exceptionValue;
         NSLog(@"%@", exceptionValue);
     };
-    
+    //我要添加东西
     // 以 JSExport 协议关联 native 的方法
     self.context[@"native"] = self;
     
